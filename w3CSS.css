@@ -1,4 +1,13 @@
-﻿/* W3.CSS 4.15 December 2020 by Jan Egil and Borge Refsnes */
+﻿:root{
+    --yellow: #e8ac3c;
+    --dgrey: #423E37;
+    --lgrey: #6E675F;
+    --lblue: #93B5C6;
+    --purple: #9A7197;
+    --lav:#F5E6E8;
+}
+
+/* W3.CSS 4.15 December 2020 by Jan Egil and Borge Refsnes */
 html{box-sizing:border-box}*,*:before,*:after{box-sizing:inherit}
 /* Extract from normalize.css by Nicolas Gallagher and Jonathan Neal git.io/normalize */
 html{-ms-text-size-adjust:100%;-webkit-text-size-adjust:100%}body{margin:0}
@@ -240,3 +249,9 @@ hr{border:0;border-top:1px solid #eee;margin:20px 0}
     display: flex;
     vertical-align: center;
 }
+
+.cyellow
+{
+    background-color: var(--yellow);
+}
+.
