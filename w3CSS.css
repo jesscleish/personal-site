@@ -1,5 +1,6 @@
 ﻿:root{
     --yellow: #e8ac3c;
+    --lyellow: #FFF8E7;
     --dgrey: #423E37;
     --lgrey: #6E675F;
     --lblue: #93B5C6;
@@ -254,4 +255,13 @@ hr{border:0;border-top:1px solid #eee;margin:20px 0}
 {
     background-color: var(--yellow);
 }
-.
+
+.bck
+{
+    background-color: var(--lyellow);
+}
+
+.bck2
+{
+    background-color: white;
+}
